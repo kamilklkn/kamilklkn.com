@@ -9,7 +9,7 @@ export default function Index() {
       <Container>
         <div className="space-y-6">
           <h1 className="grid font-display text-xl sm:text-2xl">
-            <b>Adem İlter</b>
+            <b>Kamil Kalkan</b>
             <span className="opacity-60">Product Designer</span>
             <span className="opacity-60">Istanbul, TURKEY</span>
           </h1>
