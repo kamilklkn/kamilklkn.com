@@ -1,6 +1,6 @@
 class Unsplash {
   private readonly BASE_URL: string =
-    "https://api.unsplash.com/users/ademilter";
+    "https://api.unsplash.com/users/kamilklkn";
   private readonly CLIENT_ID: string = `client_id=${process.env.UNSPLASH_ACCESS_KEY}`;
 
   async getData(url: string) {
@@ -15,6 +15,10 @@ class Unsplash {
 
   getPhotos(numPhotos = 50) {
     const url = this.buildUrl("photos", `per_page=${numPhotos}&`);
+    return this.getData(url);
+  }
+  getCollectionPhotos(collectionId: string, numPhotos = 50) {
+    const url = this.buildUrl(`collections/${collectionId}/photos`, `per_page=${numPhotos}&`);
     return this.getData(url);
   }
 

@@ -6,10 +6,11 @@ import { SOCIAL } from "@/lib/const";
 import { Metadata } from "next";
 import { formatter } from "@/lib/helper";
 
+
 export const metadata: Metadata = {
   title: "Fotoğraflar",
   description:
-    "Fotoğraf çekmek etrafımdaki şeyleri daha iyi görmemi sağlıyor. Çevrem hakkında farkındalığı, detayları görebilmemi ve doğru anı yakalayabilmeyi öğretiyor.",
+    "Fotoğraf çekmek etrafımdaki şeyleri daha iyi gşörmemi sağlıyor. Çevrem hakkında farkındalığı, detayları görebilmemi ve doğru anı yakalayabilmeyi öğretiyor.",
 };
 
 export const revalidate = 86400; // 60*60*24

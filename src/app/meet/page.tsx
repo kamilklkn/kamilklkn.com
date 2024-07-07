@@ -10,7 +10,7 @@ export default async function MeetPage() {
                 type: "inline",
                 wrapperSelector: "#sp-widget-wrapper",
               },
-              config: { username: "adem", serviceSlug: "hey" },
+              config: { username: "kamilklkn", serviceSlug: "tanisalim" },
             });`}
       </Script>
     </div>

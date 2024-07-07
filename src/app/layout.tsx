@@ -62,10 +62,11 @@ export default async function RootLayout({ children }) {
       <body className="antialiased">
         <BgColor />
 
-        <div className="flex min-h-screen flex-col pb-14 pt-10">
+        <div className="flex min-h-screen flex-col pb-14 pt-10 ">
           <Header />
           <main className="mt-10 grow sm:mt-20">{children}</main>
-          <Footer />
+          {/*  <Footer />  */}
+
         </div>
 
         <Script

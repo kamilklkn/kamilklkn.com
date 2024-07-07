@@ -1,6 +1,6 @@
 import Link from "@/components/link";
 import IconTwitter from "@/components/icons/twitter";
-import IconYoutube from "@/components/icons/youtube";
+import IconYoutube from "@/components/icons/linkedin";
 import IconGithub from "@/components/icons/github";
 import IconInstagram from "@/components/icons/instagram";
 import { SOCIAL } from "@/lib/const";
@@ -36,9 +36,7 @@ export default function Social() {
         <IconTwitter />
       </SocialButton>
 
-      <SocialButton href={SOCIAL.youtube}>
-        <IconYoutube />
-      </SocialButton>
+
 
       <SocialButton href={SOCIAL.github}>
         <IconGithub />

@@ -9,11 +9,10 @@ import { usePathname, useSelectedLayoutSegment } from "next/navigation";
 
 export const MENU = {
   "/": "Hakkımda",
-  "/videos": "Eğitimler",
   "/photos": "Fotoğraflar",
-  // "/post": "Yazılar",
+  "/post": "Yazılar",
   "/tools": "Ekipman",
-  "/bookmarks": "Feyz",
+  "/bookmarks": "Beslendiklerim",
 };
 
 export default function Header() {
